@@ -18,5 +18,6 @@ func main() {
 		return
 	}
 
-	folders.PrettyPrint(res)
+	//folders.PrettyPrint(res)
+	folders.Pagination(req)
 }
